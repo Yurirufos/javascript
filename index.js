@@ -95,8 +95,61 @@ console.log('transaction ' + status + '! Total amount: $' + total)
 
 saleStatus('Approved', 30)
 
+
+// Função de porcentagem 
+
 function percentage10(price) {
-  return price - (price * 30) / 100;
+  return price - (price * 10) / 100;
 }
 
-console.log(percentage10(5000));
+console.log(percentage10(100));
+
+// operações aritiméticas + - / * % ( simbolo de porcentagem % no JS é igual ao restante do valor de divisão de um numero não inteiro)
+// caso queira colocar mais um ou menos um adiciona ++ ou -- e a variavel 
+
+
+let num1 =10
+let num2 = 4
+
+console.log(num1 % num2)
+
+// operadores de atribuição +=, *= usador para poder somar multiplicar dividir diminuir por mais que 1 ex:
+
+
+let num3 = 5
+
+num3*= 20
+
+console.log(num3)
+
+// operadores de coparação
+// para  sinal de igual colocamos três sinais de igual (===) caso queira saber se é diferente colocamos uma exclamação e dois sinais de igual (!=) 
+
+// para saber se é maior que ou menor que usamos os sinais ( maior que > ) (menor que < )
+
+// tambem podemosusar maior ou igual ( >= ), menor ou igual ( <= )
+
+let num4 = 10
+
+console.log(num4 !== 8)
+// console.log(num4 === 10 )
+// console.log(num4 > 10 )
+// console.log(num4 < 10)
+
+// console.log(num4 >= 10)
+// console.log(num4 <= 10)
+
+// TRÊS SINAIS DE IGUAIS E/OU EXCLAMAÇÃO DOIS IGUAIS PARA SINAL "DIFERENTE QUÊ..." ( === / !== )/  SÃO PRA RESULTADOS DE QUALIDADE ESTRITA (strict quality) OU SEJA ANALIZA TYPE AND VALOR  
+
+// PARA ANAIZES SOMENTE DE VALOR SÃO USADOS DOIS IGUAL E/OU EXCLAMAÇÃO E UM SINAL DE IGUAL PARA "DIFERENTE QUÊ..." ( == , != ) SÃO PARA RESULTADOS ANALIZES SOMENTE DE VALOR ( Lose Quality )
+
+
+
+
+let driver = 100
+let speed = driver > 90 ? 'Above' : 'Bellow'
+
+console.log(speed)
+
+
+
