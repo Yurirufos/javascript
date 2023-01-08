@@ -102,19 +102,58 @@ const myCar = {
   Color: "Red",
 };
 
-for (let i in myCar) 
-    console.log(i, myCar[i]);
+for (let i in myCar) console.log(i, myCar[i]);
 
 // Variação de loop ultitizada mais em Arrays ( For of Loop) exemplo abaixo de uma array e for of loop
 
-const friends = ['Flávia', 'Célia', 'Silvinha', 'Patrick', 'Bárbara', 'Gabi', 'Filipe'];
+const friends = [
+  "Flávia",
+  "Célia",
+  "Silvinha",
+  "Patrick",
+  "Bárbara",
+  "Gabi",
+  "Filipe",
+];
 
-for (let i of friends) 
-    console.log(i)
+for (let i of friends) console.log(i);
 
 // Break dentro de um loop exemplo (adicione um (if) se a variavel for === ao numero fecha parenteses pare (break))
 
-for( i = 1; i <= 10; i++) {
-  if ( i === 8 ) break
-  console.log('Num ' + i)
+for (i = 1; i <= 10; i++) {
+  if (i === 8) break;
+  console.log("Num " + i);
+}
+
+// OOP ( Objects Oriented Programing) :
+
+const book = {
+  bookTitle: "Alguma coisa",
+  bookPages: 300,
+  bookAuthor: "Yuri RF",
+  bookChapters: {
+    chap1: "cap1",
+    chap2: "cap2",
+  },
+
+  printBook: function () {
+    console.log("Printing...");
+  },
+};
+console.log(book);
+
+// Executando uma função dentro de um objeto. colocando o nome do obtejo ponto e o nome da função
+book.printBook();
+
+// Factory são fabricas de objetos :
+
+function createBook(title, pages, author) {
+  const book = {
+    bookTitle: title,
+    bookPages: pages,
+    bookAuthor: author,
+    printBook: function () {
+      console.log("Printing...");
+    },
+  };
 }
