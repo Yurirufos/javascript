@@ -1,0 +1,41 @@
+
+* {
+   padding: 0;
+   width: 0
+   height 0;
+  }
+
+  body {
+   height: 100vh;
+   position: relative;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 20px;
+  }
+
+  div#ball {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 300px;
+   height: 300px;
+   border-radius: 300px;
+   background-color: blueviolet;
+
+  }
+
+  div#ball > p {
+   text-align: center;
+   line-height: 13em;
+   color: black
+   ;
+  }
+  
+  div#res {
+   padding-top: 30px;
+  }
+
+span {
+ padding-left: 55px;
+}
