@@ -1,5 +1,17 @@
 
 // como abrir uma kanela de prompt 
+const greetingMessage = () => {
+  let h = new Date().getHours();
+  return h <= 5
+    ? "Boa madrugada"
+    : h < 12
+    ? "Bom dia"
+    : h < 18
+    ? "Boa tarde"
+    : "Boa noite";
+};
+
+alert(`Oii ${greetingMessage()}`);
 
 let  nome = window.prompt('Qual seu nome')
 console.log(nome)
