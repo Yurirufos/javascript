@@ -2,13 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Gafata&display=swap");
 
-
-
-
 body {
   height: 100vh;
-  
-  background-image: linear-gradient(to top, #0000ff, rgb(156, 156, 199));
+
+  background-image: linear-gradient(to top, #0000ff, #9c9cc7);
   font-family: "gafata", Arial, Helvetica, sans-serif;
   font-size: 15pt;
   font-weight: normal;
@@ -16,17 +13,24 @@ body {
 }
 
 header {
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 
+h1 {
+  font-size: 1em;
+  letter-spacing: 1.5em;
+  padding-left: 30px;
+}
+
 section {
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 10px;
-  padding: 15px;
+
+  padding: 5px;
   width: 500px;
   margin: auto;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.746);
+  box-shadow: 5px 5px 10px #000000be;
 }
 
 input#num {
@@ -47,19 +51,20 @@ input#botao {
   background-color: #b3b3ebb4;
   border-radius: 10px;
   border: none;
-  font-size: .7em;
+  font-size: 0.7em;
   letter-spacing: 3px;
 }
 
 input#botao:hover {
   background-color: #9393c0b4;
   cursor: pointer;
+  box-shadow: 1px 1px 2px #000000ab;
 }
 
-div#msg {
+div#msg,
+#res {
   text-align: center;
 }
-
 
 img {
   width: 300px;
@@ -71,10 +76,10 @@ img {
 footer {
   font-style: italic;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 footer > p > a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }

@@ -39,19 +39,19 @@ function check() {
     if (age >= 0 && age <= 10) {
       // CRIANÇA
       img.src = "menina.jpg";
-      document.body.style.background = "#4e0f4e"
+      document.body.style.background = "#4e0f4e";
     } else if (age < 21) {
       // ADOLESCENTE
       img.src = "mulher-jovem.jpg";
-      document.body.style.background = "#4e0f4e"
+      document.body.style.background = "#4e0f4e";
     } else if (age < 60) {
       // ADULTO
       img.src = "mulher-aulta.jpg";
-      document.body.style.background = "#4e0f4e"
+      document.body.style.background = "#4e0f4e";
     } else {
       // IDOSO
       img.src = "mulher-idosa.jpg";
-      document.body.style.background = "#4e0f4e"
+      document.body.style.background = "#4e0f4e";
     }
   }
   res.innerHTML = `Detectamos ${gen} com ${age} anos. `;
