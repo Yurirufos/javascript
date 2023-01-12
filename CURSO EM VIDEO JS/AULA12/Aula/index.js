@@ -1,3 +1,5 @@
+
+
 // FUNÇÃO DE LOAD NO HTML
 
 function carregar() {
@@ -8,7 +10,7 @@ function carregar() {
   msg.innerHTML = `<p>Agora são ${hora} horas</p>`;
   
   // VARIAVEL DE TESTE
-  // let hora = 18;
+  // let hora = 12;
 
   if (hora >= 0 && hora < 12) {
     // BOM DIA
