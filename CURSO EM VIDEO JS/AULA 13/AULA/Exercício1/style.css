@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body {
+  height: 96vh;
+  background-image: linear-gradient(to top, blue, rgb(156, 156, 199));
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: normal;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.746);
+}
+
+.inp {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  padding: 10px;
+}
+
+.lab {
+  text-align: center;
+  font-weight: bold;
+}
+
+#num,
+#num2,
+#pas {
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(248, 225, 195);
+  border-radius: 7px;
+  box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.438);
+}
+
+#pas:hover {
+  background-color: antiquewhite;
+}
+#num:hover {
+  background-color: antiquewhite;
+}
+#num2:hover {
+  background-color: antiquewhite;
+}
+#pas {
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.res {
+  margin-top: 50px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  font-style: italic;
+  text-align: center;
+  color: white;
+}
