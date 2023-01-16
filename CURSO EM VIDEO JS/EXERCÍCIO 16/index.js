@@ -1,7 +1,7 @@
 
 
 
-let num = document.getElementById("num");
+let num = document.getElementById("fnum");
 let lista = document.getElementById("flista");
 let res = document.getElementById("res");
 let valores = [];
@@ -22,7 +22,7 @@ function inLista(n, l) {
   }
 }
 
-function adicionar() {
+function adc() {
   if (isNumero(num.value) && !inLista(num.value, valores)) {
     alert("Tudo OK");
   } else {
