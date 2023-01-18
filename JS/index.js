@@ -144,8 +144,6 @@ console.log(num4 !== 8)
 // PARA ANAIZES SOMENTE DE VALOR SÃO USADOS DOIS IGUAL E/OU EXCLAMAÇÃO E UM SINAL DE IGUAL PARA "DIFERENTE QUÊ..." ( == , != ) SÃO PARA RESULTADOS ANALIZES SOMENTE DE VALOR ( Lose Quality )
 
 
-
-
 let driver = 100
 let speed = driver > 90 ? 'Above' : 'Bellow'
 
